@@ -17,6 +17,7 @@ public class PermainanBatuKertasGuntingVSKomputer {
 		char pilih;
 
 		//INPUT PILIHAN BATU - KERTAS - GUNTING
+		System.out.print( "Pilih Tangan: (0 = Batu, 1 = Kertas, 2 = Gunting ");
 		
 		Scanner input2 = new Scanner(System.in);
 		System.out.print( "Memilih : ");

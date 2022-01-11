@@ -9,6 +9,7 @@ public class PermainanBatuKertasGuntingVSKomputer {
 		//INPUT NAMA
 		
 		System.out.println ("Mulai Permainan Batu Kertas Gunting");
+		System.out.println ();
 
 		Scanner input = new Scanner(System.in);
 		System.out.print("Masukan nama anda : ");
@@ -18,7 +19,7 @@ public class PermainanBatuKertasGuntingVSKomputer {
 
 		//INPUT PILIHAN BATU - KERTAS - GUNTING
 		System.out.print( "Pilih Tangan: (0 = Batu, 1 = Kertas, 2 = Gunting ");
-		
+		System.out.println ();
 		Scanner input2 = new Scanner(System.in);
 		System.out.print( "Memilih : ");
 		pilih = input2.next().charAt(0);
